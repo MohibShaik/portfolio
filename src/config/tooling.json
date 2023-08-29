@@ -1,0 +1,72 @@
+{
+    "toolingList": [
+        {
+            "toolIcon": "",
+            "toolName": "React"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Angular"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Node"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "MongoDB"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Javascript"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "SCSS"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Typescript"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Rxjs"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Github"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Jira"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Heroku"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Bootstrap"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Bootstrap"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Ionic"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Express"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Material UI"
+        },
+        {
+            "toolIcon": "",
+            "toolName": "Akita State Management"
+        }
+    ]
+}
