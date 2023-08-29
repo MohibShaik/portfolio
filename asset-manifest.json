@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MohibShaik/portfolio/static/css/main.d68b9de1.css",
+    "main.js": "/MohibShaik/portfolio/static/js/main.f4a44047.js",
+    "static/js/787.1ed0c42c.chunk.js": "/MohibShaik/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/avatar.png": "/MohibShaik/portfolio/static/media/avatar.b7b4ce06b9849f10a14e.png",
+    "index.html": "/MohibShaik/portfolio/index.html",
+    "main.d68b9de1.css.map": "/MohibShaik/portfolio/static/css/main.d68b9de1.css.map",
+    "main.f4a44047.js.map": "/MohibShaik/portfolio/static/js/main.f4a44047.js.map",
+    "787.1ed0c42c.chunk.js.map": "/MohibShaik/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d68b9de1.css",
+    "static/js/main.f4a44047.js"
+  ]
+}
