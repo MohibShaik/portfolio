@@ -19,21 +19,14 @@
     padding: 0 5rem;
     padding-top: 8rem;
 
-    &.hidden {
-      opacity: 0;
+    .content {
+      animation: fadeInLeft 2s ease forwards;
     }
 
-    &.show {
-      opacity: 1;
-
-      .content {
-        animation: fadeInLeft 2s ease forwards;
-      }
-
-      .hero-icon {
-        animation: fadeInRight 2s ease forwards;
-      }
+    .hero-icon {
+      animation: fadeInRight 2s ease forwards;
     }
+
 
     @media (min-width: 760px) and (max-width: 1024px) {
       flex-direction: column;

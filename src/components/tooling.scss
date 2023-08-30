@@ -140,6 +140,7 @@
             display: flex;
             justify-content: space-evenly;
             align-items: center;
+            cursor: pointer;
 
             @media (min-width: 480px) and (max-width: 759px) {
                 flex: 0 30%;
@@ -193,4 +194,9 @@
             }
         }
     }
+}
+
+.tooling .tooling-box .box-content:hover {
+    background: #ff7800;
+    color: #fff;
 }

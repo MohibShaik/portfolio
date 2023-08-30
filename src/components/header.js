@@ -1,5 +1,4 @@
 import './header.scss';
-import avator from '../images/avatar.png';
 
 export function Header() {
   return (
