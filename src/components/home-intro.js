@@ -21,7 +21,7 @@ export function Home() {
           </div>
           <div className='content-secondary'>
             <p>
-              Passionate MEAN & MERN developer with 4+ years
+              Passionate MEAN & MERN developer with 5+ years
               of experience creating efficient, scalable,
               and responsive web applications. Proficient in
               the entire web development stack and dedicated

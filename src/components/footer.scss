@@ -1,0 +1,160 @@
+.social {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 5rem;
+    padding: 0;
+    width: 100%;
+
+    >.social-title {
+        background: #12141d;
+        border-radius: 12px;
+        padding: 0.8rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 5rem;
+        box-shadow: 0px 0px 4px 1px #ff7800 inset;
+        -webkit-box-shadow: 0px 0px 4px 1px #ff7800 inset;
+        -moz-box-shadow: 0px 0px 4px 1px #ff7800 inset;
+        // transform: rotate(0.01turn);
+
+        >h2 {
+            text-transform: uppercase;
+            font-family: "Gluten", cursive;
+            font-weight: 900;
+            color: #ff7800;
+            text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+    }
+
+    >.social-body {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .github-box {
+        align-items: center;
+        background: #333;
+        color: #d6d6d6;
+        cursor: pointer;
+        display: flex;
+        height: 9rem;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        position: relative;
+        width: 25%;
+
+        >p {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin: 0;
+            font-family: "Gluten", cursive;
+        }
+
+        >img {
+            height: 4rem;
+            width: 4rem;
+            opacity: 0.5;
+        }
+    }
+
+    .linkedin-box {
+        align-items: center;
+        background: #0077b5;
+        color: #cce4f0;
+        cursor: pointer;
+        display: flex;
+        height: 9rem;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        width: 25%;
+
+        >p {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin: 0;
+            font-family: "Gluten", cursive;
+        }
+
+        >img {
+            height: 4rem;
+            width: 4rem;
+            opacity: 0.5;
+        }
+    }
+
+    .twitter-box {
+        align-items: center;
+        background: #1da1f2;
+        color: #cce4f0;
+        cursor: pointer;
+        display: flex;
+        height: 9rem;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        width: 25%;
+
+        >p {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin: 0;
+            font-family: "Gluten", cursive;
+        }
+
+        >img {
+            height: 4rem;
+            width: 4rem;
+            opacity: 0.5;
+        }
+    }
+
+    .gmail-box {
+        align-items: center;
+        // background: rgb(62, 101, 207);
+        background: linear-gradient(90deg, rgba(62, 101, 207, 1) 0%, rgba(199, 22, 16, 1) 33%, rgba(242, 166, 12, 1) 100%);
+        color: #cce4f0;
+        cursor: pointer;
+        display: flex;
+        height: 9rem;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        width: 25%;
+
+        >p {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin: 0;
+            font-family: "Gluten", cursive;
+        }
+
+        >img {
+            height: 4rem;
+            width: 4rem;
+            opacity: 0.5;
+        }
+    }
+
+    .footer {
+        align-items: center;
+        background: #1f2128;
+        display: flex;
+        height: -webkit-max-content;
+        height: max-content;
+        justify-content: center;
+        width: 100%;
+
+        >p {
+            color: #ff7800;
+            font-family: "Gluten", cursive;
+            font-size: 1.4rem;
+            font-weight: 900;
+            margin: 0;
+            padding: 2rem 0;
+            text-transform: capitalize;
+        }
+    }
+}

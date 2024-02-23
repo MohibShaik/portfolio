@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "projectImage": "/phonebook.png",
+            "projectName": "Phonebook",
+            "projectDescription": "Manage Your Phone Contacts The Easy Way. Create, Update And Delete Your Personal Contacts All From One App. This Is A MERN Stack App With React Redux Toolkit. Find Source Code On My Github"
+        },
+        {
+            "projectImage": "/sic.png",
+            "projectName": "School Innovation Challenge - Telangana",
+            "projectDescription": "The School Innovation Challenge Program intends to provide a platform to students from 6th to 10th grade on problem-solving methods and enable them to showcase their innovative solutions for the identified problem statements"
+        },
+        {
+            "projectImage": "",
+            "projectName": "Personal Resume",
+            "projectDescription": "Personal Resume build using Angular 10"
+        },
+        {
+            "projectImage": "",
+            "projectName": "DSD Smart Order",
+            "projectDescription": "Developed the user interfaces for client DSD inorder to deliver the capability to order the correct amounts of product based on historical trends – automatically. This is developed using Angular, Django , Postgresql"
+        },
+        {
+            "projectImage": "",
+            "projectName": "M'List",
+            "projectDescription": "M'List is a mobile application built using ionic , This is a social media app build similar to instagram using Ionic , NodeJs , Pusher , MongoDB."
+        },
+        {
+            "projectImage": "",
+            "projectName": "E-Tracker",
+            "projectDescription": "E-Tracker is a expenses tracking application built using Angular,NodeJs,ExpressJs,MongoDB."
+        }
+    ]
+}

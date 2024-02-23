@@ -1,0 +1,28 @@
+{
+    "socialLinks": [
+        {
+            "name": "Github",
+            "className": "github-box",
+            "link": "https://github.com/MohibShaik",
+            "iconLink": "/github-icon.png"
+        },
+        {
+            "name": "LinkedIn",
+            "className": "linkedin-box",
+            "link": "https://www.linkedin.com/in/mohib-shaik-2b4834168/",
+            "iconLink": "/linkedin-icon.png"
+        },
+        {
+            "name": "Twitter",
+            "className": "twitter-box",
+            "link": "https://github.com/MohibShaik",
+            "iconLink": "/twitter-icon.png"
+        },
+        {
+            "name": "Gmail",
+            "className": "gmail-box",
+            "link": "mailto:mohib.shaik16@gmail.com",
+            "iconLink": "/gmail-icon.png"
+        }
+    ]
+}

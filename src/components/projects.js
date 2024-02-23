@@ -1,23 +1,39 @@
 import React, { useState } from 'react';
-import data from '../config/tooling.json';
+import data from '../config/projects.json';
 import './projects.scss';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 export function Projects() {
-  const [toolingData, setToolingData] = useState(data);
-  console.log(toolingData.toolingList);
-  const tempData = toolingData.toolingList;
+  const [projectsData, setProjectsData] = useState(data);
+  console.log(projectsData.projects);
+  const projectsList = projectsData.projects;
+
   return (
-    <div className='tooling'>
-      <div className='tooling-title'>
-        <h2>Tooling</h2>
+    <div className='showroom-section'>
+      <div className='showroom-title'>
+        <h2>Showroom</h2>
       </div>
-      <div className='tooling-box'>
-        {tempData.map((animal, index) => (
-          <div key={index} className='box-content'>
-            <div className='box-text'>
-              <p>{animal.toolName}</p>
-            </div>
-          </div>
+
+      <div className='showroom'>
+        {projectsList.map((item, index) => (
+          <Card className='project-card' key={index}>
+            <Card.Img
+              variant='top'
+              src={item?.projectImage}
+            />
+            <Card.Body className='card-body'>
+              <Card.Title className='card-title'>
+                {item?.projectName}
+              </Card.Title>
+              <Card.Text>
+                {item?.projectDescription}
+              </Card.Text>
+              {/* <Button variant='primary'>
+                Go somewhere
+              </Button> */}
+            </Card.Body>
+          </Card>
         ))}
       </div>
     </div>
